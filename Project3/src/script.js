@@ -104,9 +104,9 @@ function selectorAnswer(e){
     nextButton.style.display = 'block';
 }
 
-function showScrore(){
-    resetState();
-    questionElement.innerHTML = 'You Socred ${score} out of ${questions.length}!';
+function showScore(){
+    reset();
+    questionElement.innerHTML = `You Socred ${score} out of ${questions.length}!`;
     nextButton.innerHTML = 'Play Again';
     nextButton.style.display = 'block';
 }
@@ -117,7 +117,7 @@ function handleNextButton(){
         showQuestion();
     }
     else{
-        showScrore();
+        showScore();
     }
 }
 
