@@ -96,7 +96,7 @@
     "yaml": "^2.4.5"
   },
   "scripts": {
-    "watching": "npx tailwindcss -i ./Project4/src/style.css -o ./Project4/dist/output.css --watch"
+    "watching": "npx tailwindcss -i ./Project1/src/style.css -o ./Project1/dist/output.css --watch"
   },
   "author": "",
   "license": "ISC",
