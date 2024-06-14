@@ -1,5 +1,6 @@
 const container = document.getElementById('list-container');
 const input = document.getElementById('input');
+const listContainer = document.getElementById('list-container');
 
 function addTask(){
     if(input.value === ""){
@@ -14,13 +15,25 @@ function addTask(){
         li.appendChild(span);
     }
     input.value = "";
+    saveData()
 }
 
 container.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle('checked');
+        saveData()
     }
     else if(e.target.tagName === "SPAN"){
         e.target.parentElement.remove();
+        saveData()
     }
 })
+
+function saveData(){
+    localStorage.setItem("data", listContainer.innerHTML);
+}
+
+function showTask(){
+    listContainer.innerHTML = localStorage.getItem("data");
+}
+showTask();
