@@ -10,6 +10,10 @@ module.exports = {
         'bg-button':'#ebfffc',
         'bg-project3':'#fff',
         'bg-project3.1':'#001e4d'
+      },
+      maxHeight: {
+        'base': '640px',
+        'sm-base': '660px'
       }
     },
   },
