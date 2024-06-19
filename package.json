@@ -96,8 +96,8 @@
     "yaml": "^2.4.5"
   },
   "scripts": {
-    "watching": "npx tailwindcss -i ./Project6/src/style.css -o ./Project6/dist/output.css --watch",
-    "build": "npx tailwindcss -i ./Project6/src/style.css -o ./Project6/dist/output.css"
+    "watching": "npx tailwindcss -i ./Project8/src/style.css -o ./Project8/dist/output.css --watch",
+    "build": "npx tailwindcss -i ./Project8/src/style.css -o ./Project8/dist/output.css"
   },
   "author": "",
   "license": "ISC",
