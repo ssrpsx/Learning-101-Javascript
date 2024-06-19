@@ -13,3 +13,5 @@ Project5#Notes : https://javascript-project5-sarawut.netlify.app/
 Project6#Age_Calculator : https://javascript-project6-sarawut.netlify.app/
 
 Project7#QR_Code_Generator : https://javascript-project7-sarawut.netlify.app/
+
+Project8#Toast Notification : https://javascript-project8-sarawut.netlify.app/
