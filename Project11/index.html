@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <script src="https://kit.fontawesome.com/151a20ab29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container w-full h-screen flex items-center justify-center flex-wrap bg-[#333]">
+        <div class="music-player text-center py-7 px-9 w-[320px]">
+            <nav class="flex justify-between mb-8">
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="Images/Profile.jpg" class="song-img">
+            <h1 class="text-xl font-normal text-black mt-5">ความน่าจะเป็นเท่ากับสูญ (0%)</h1>
+            <p class="text-lg text-black">AYLA's</p>
+
+            <audio class="rounded-md" id="song">
+                <source src="audio/audio.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress" class="w-full h-2 bg-orange-400 rounded-md cursor-pointer my-8 mx-0">            
+        
+            <div class="controls flex justify-center items-center">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="PlayPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/srcipt.js"></script>
+</html>
