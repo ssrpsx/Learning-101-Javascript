@@ -19,3 +19,5 @@ Project8#Toast Notification : https://javascript-project8-sarawut.netlify.app/
 Project9#Hide And Show Password : https://javascript-project9-sarawut.netlify.app/
 
 Project10#Dark Theme : https://javascript-project10-sarawut.netlify.app/
+
+Project10#Music Player : https://javascript-project11-sarawut.netlify.app/
