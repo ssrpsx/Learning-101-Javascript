@@ -610,8 +610,8 @@ video {
   }
 }
 
-.list {
-  padding: 0.5rem;
+.list{
+  padding: 0.2rem;
 }
 
 .list-children {
@@ -625,10 +625,17 @@ video {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.25rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .list-children {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 .flex {

@@ -11,9 +11,9 @@
         @apply border-dashed border-2 w-48 h-48 sm:w-72 sm:h-72 m-2 overflow-y-hidden;
     }
     .list{
-        @apply p-2;
+        padding: 0.2rem;
     }
     .list-children{
-        @apply bg-pink-500 w-full h-10 rounded-md text-white text-xl px-2 list-inside items-center pt-1;
+        @apply bg-pink-500 w-full h-10 rounded-md text-white text-lg sm:text-xl px-2 list-inside items-center pt-1;
     }
 }
